@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BBC Football Gossip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    header {
+      background-color: #FFB81C;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    select, button {
+      padding: 8px 12px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    h1 { margin: 0; font-size: 28px; }
+    h2 {
+      margin-top: 20px;
+      font-size: 22px;
+      border-bottom: 2px solid #FFB81C;
+      padding-bottom: 5px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .gossip-container {
+      max-height: 500px;
+      overflow-y: auto;
+      margin-top: 10px;
+    }
+    .gossip-container p {
+      margin: 20px 0;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BBC Football Gossip Summariser</h1>
+  </header>
+  <main>
+    <p>Select a Premier League team to see all the gossip reported on the 
+      <a href="https://www.bbc.co.uk/sport/football/gossip" target="_blank" rel="noopener noreferrer">BBC website</a> 
+      in the last six weeks.
+    </p>
+    <div class="controls">
+      <label for="team">Choose a team:</label>
+      <select id="team">
+        <option value="" disabled selected>Select a team</option>
+      </select>
+      <button onclick="showGossip()">Show Gossip</button>
+    </div>
+    <div id="results"></div>
+  </main>
+
+  <script>
+    let articles = [];
+
+    // Loads teams and processed_articles json files when the page opens
+    async function loadData() {
+      const [teamsRes, articlesRes] = await Promise.all([
+        fetch('teams.json'),
+        fetch('processed_articles.json')
+      ]);
+      const teams = await teamsRes.json();
+      articles = await articlesRes.json();
+
+      // Populates the dropdown with sorted team names
+      const select = document.getElementById('team');
+      Object.keys(teams).sort().forEach(team => {
+        const option = document.createElement('option');
+        option.value = team;
+        option.textContent = team;
+        select.appendChild(option);
+      });
+    }
+
+    // Filters articles for the selected team and display them
+    function showGossip() {
+      const team = document.getElementById('team').value;
+      if (!team) return;
+
+      const filtered = articles.filter(a => a.teams.includes(team));
+      const resultsDiv = document.getElementById('results');
+
+      if (filtered.length === 0) {
+        resultsDiv.innerHTML = `<p>No gossip found for ${team} in the last six weeks.</p>`;
+        return;
+      }
+
+      const heading = `<h2>Gossip for ${team}</h2>`;
+      const paras = filtered.map(a => `<p>${a.text} (${a.date})</p>`).join('');
+      resultsDiv.innerHTML = heading + `<div class="gossip-container">${paras}</div>`;
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

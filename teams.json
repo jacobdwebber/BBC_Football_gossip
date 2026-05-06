@@ -1,0 +1,22 @@
+{
+  "Arsenal": ["Arsenal"],
+  "Aston Villa": ["Aston Villa", "Villa"],
+  "AFC Bournemouth": ["Bournemouth", "AFC Bournemouth"],
+  "Brentford": ["Brentford"],
+  "Brighton & Hove Albion": ["Brighton", "Brighton & Hove Albion"],
+  "Burnley": ["Burnley"],
+  "Chelsea": ["Chelsea"],
+  "Crystal Palace": ["Crystal Palace", "Palace"],
+  "Everton": ["Everton"],
+  "Fulham": ["Fulham"],
+  "Leeds United": ["Leeds", "Leeds United", "Leeds Utd"],
+  "Liverpool": ["Liverpool"],
+  "Manchester City": ["Manchester City", "Man City"],
+  "Manchester United": ["Manchester United", "Man United", "Man Utd"],
+  "Newcastle United": ["Newcastle United", "Newcastle"],
+  "Nottingham Forest": ["Nottingham Forest", "Forest", "Nottm Forest"],
+  "Sunderland": ["Sunderland"],
+  "Tottenham Hotspur": ["Tottenham", "Spurs", "Tottenham Hotspur"],
+  "West Ham United": ["West Ham", "West Ham United", "West Ham Utd"],
+  "Wolverhampton Wanderers": ["Wolves", "Wolverhampton", "Wolverhampton Wanderers"]
+}
