@@ -98,57 +98,9 @@
   </main>
 
   <script>
-  let articles = [];
-  let teamsData = {};
-
-  async function loadData() {
-    const [teamsRes, articlesRes] = await Promise.all([
-      fetch('teams.json'),
-      fetch('processed_articles.json')
-    ]);
-    teamsData = await teamsRes.json();
-    articles = await articlesRes.json();
-
-    const select = document.getElementById('team');
-    Object.keys(teamsData).sort().forEach(team => {
-      const option = document.createElement('option');
-      option.value = team;
-      option.textContent = team;
-      select.appendChild(option);
-    });
-  }
-
-  function showGossip() {
-    const team = document.getElementById('team').value;
-    if (!team) return;
-
-    const filtered = articles.filter(a => a.teams.includes(team));
-    const resultsDiv = document.getElementById('results');
-
-    if (filtered.length === 0) {
-      resultsDiv.innerHTML = `<p>No gossip found for ${team} in the last six weeks.</p>`;
-      return;
-    }
-
-    const heading = `<h2>Gossip for ${team}</h2>`;
-    const paras = filtered.map(a => {
-      const variants = teamsData[team] || [team];
-      const pattern = variants.map(v => `<u>(${v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})</u>`).join('|');
-      const highlighted = a.text.replace(
-        new RegExp(pattern, 'gi'),
-        '<u><b>$1</b></u>'
-      );
-      return `<p><b>${a.date}</b> - ${highlighted}</p>`;
-    }).join('');
-
-    resultsDiv.innerHTML = heading + `<div class="gossip-container">${paras}</div>`;
-  }
-
-  loadData();
-</script> articles = [];
+    let articles = [];
     let teamsData = {};
 
-    // Loads teams and processed_articles json files when the page opens
     async function loadData() {
       const [teamsRes, articlesRes] = await Promise.all([
         fetch('teams.json'),
@@ -157,9 +109,8 @@
       teamsData = await teamsRes.json();
       articles = await articlesRes.json();
 
-      // Populates the dropdown with sorted team names
       const select = document.getElementById('team');
-      Object.keys(teams).sort().forEach(team => {
+      Object.keys(teamsData).sort().forEach(team => {
         const option = document.createElement('option');
         option.value = team;
         option.textContent = team;
@@ -167,35 +118,35 @@
       });
     }
 
-    // Filters articles for the selected team and display them
     function showGossip() {
-        const team = document.getElementById('team').value;
-        if (!team) return;
+      const team = document.getElementById('team').value;
+      if (!team) return;
 
-        const filtered = articles.filter(a => a.teams.includes(team));
-        const resultsDiv = document.getElementById('results');
+      const filtered = articles.filter(a => a.teams.includes(team));
+      const resultsDiv = document.getElementById('results');
 
-        if (filtered.length === 0) {
-            resultsDiv.innerHTML = `<p>No gossip found for ${team} in the last six weeks.</p>`;
-            return;
-        }
+      if (filtered.length === 0) {
+        resultsDiv.innerHTML = `<p>No gossip found for ${team} in the last six weeks.</p>`;
+        return;
+      }
 
-        const heading = `<h2>Gossip for ${team}</h2>`;
-        const paras = filtered.map(a => {
-            const variants = teamsData[team] || [team];
-            const pattern = variants.map(v => `<u>(${v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})</u>`).join('|');
-            const highlighted = a.text.replace(
-                new RegExp(pattern, 'gi'),
-                '<u><b>$1</b></u>'
-            );
+      const heading = `<h2>Gossip for ${team}</h2>`;
+      const paras = filtered.map(a => {
+        const variants = teamsData[team] || [team];
+        const pattern = variants.map(v => `<u>(${v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})</u>`).join('|');
+        const highlighted = a.text.replace(
+          new RegExp(pattern, 'gi'),
+          '<u><b>$1</b></u>'
+        );
         return `<p><b>${a.date}</b> - ${highlighted}</p>`;
-        }).join('');
+      }).join('');
 
-        resultsDiv.innerHTML = heading + `<div class="gossip-container">${paras}</div>`;
+      resultsDiv.innerHTML = heading + `<div class="gossip-container">${paras}</div>`;
     }
 
     loadData();
   </script>
+
   <footer>
     <p>Created as a personal development portfolio project. Not affiliated with BBC Sport.</p>
   </footer>
