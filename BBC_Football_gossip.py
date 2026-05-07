@@ -105,15 +105,19 @@ def get_date(soup):
 def process_article(url, teams_list):
     soup = get_soup(url)
     date = get_date(soup)
-    paras = get_paras(soup)
+    body = soup.find("div", class_=re.compile("RichTextContainer"))
+    raw_paras = body.find_all("p")[1:]
     processed_paras = []
-    for para in paras:
-        teams = tag_teams(para, teams_list)
+    for para in raw_paras:
+        raw_text = para.get_text(separator=' ', strip=True)
+        teams = tag_teams(raw_text, teams_list)
+        clean_text = clean_paras(para)
         processed_paras.append({
             "url": url,
             "date": date,
-            "text": para,
-            "teams": teams})
+            "text": clean_text,
+            "teams": teams
+        })
     return processed_paras
 
 # Process all required articles and update processed_articles json file
