@@ -1,3 +1,5 @@
+# Daily scraper workflow
+
 name: Run Scraper Daily
 
 on:
