@@ -133,10 +133,11 @@
       const heading = `<h2>Gossip for ${team}</h2>`;
       const paras = filtered.map(a => {
         const variants = teamsData[team] || [team];
-        const pattern = variants.map(v => `<u>(${v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})</u>`).join('|');
+        const variantPattern = variants.map(v => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+        const pattern = `<u>(${variantPattern})</u>`;
         const highlighted = a.text.replace(
-          new RegExp(pattern, 'gi'),
-          '<u><b>$1</b></u>'
+            new RegExp(pattern, 'gi'),
+            '<u><b>$1</b></u>'
         );
         return `<p><b>${a.date}</b> - ${highlighted}</p>`;
       }).join('');
