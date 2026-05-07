@@ -5,6 +5,9 @@
   <title>BBC Football Gossip</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Roboto', sans-serif;
       background-color: #f5f5f5;
@@ -18,26 +21,23 @@
       padding: 20px;
       text-align: center;
     }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    h1 {
+      margin: 0;
+      font-size: 28px;
     }
-    select, button {
-      padding: 8px 12px;
-      font-size: 16px;
-      border-radius: 4px;
-      border: 1px solid #ccc;
-    }
-    h1 { margin: 0; font-size: 28px; }
     h2 {
       margin-top: 20px;
       font-size: 22px;
       border-bottom: 2px solid #FFB81C;
       padding-bottom: 5px;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     .controls {
       display: flex;
@@ -46,14 +46,24 @@
       gap: 10px;
       margin-bottom: 20px;
     }
+    select {
+      padding: 10px 12px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      flex: 1;
+      min-width: 200px;
+      width: 100%;
+    }
     .gossip-container {
-      max-height: 500px;
-      overflow-y: auto;
       margin-top: 10px;
     }
     .gossip-container p {
       margin: 20px 0;
-      line-height: 1.5;
+      line-height: 1.6;
+      font-size: 15px;
+      border-bottom: 1px solid #f0f0f0;
+      padding-bottom: 15px;
     }
     footer {
       text-align: center;
@@ -61,6 +71,12 @@
       margin-top: 20px;
       font-size: 14px;
       color: #666;
+    }
+    @media (min-width: 600px) {
+      select {
+        width: auto;
+        flex: 1;
+      }
     }
   </style>
 </head>
@@ -74,10 +90,9 @@
       in the last six weeks.
     </p>
     <div class="controls">
-      <select id="team">
+      <select id="team" onchange="showGossip()">
         <option value="" disabled selected>Select a team</option>
       </select>
-      <button onclick="showGossip()">Show Gossip</button>
     </div>
     <div id="results"></div>
   </main>
