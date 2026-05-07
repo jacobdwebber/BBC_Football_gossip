@@ -133,7 +133,11 @@
       }
 
       const heading = `<h2>Gossip for ${team}</h2>`;
-      const paras = filtered.map(a => `<p><b>${a.date}</b> - ${a.text}</p>`).join('');
+      const paras = filtered.map(a => {
+        const highlighted = a.text.replace(
+            new RegExp(`<u>(${team.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})</u>`, 'gi'),'<u><b>$1</b></u>');
+        return `<p><b>${a.date}</b> - ${highlighted}</p>`;
+        }).join('');
       resultsDiv.innerHTML = heading + `<div class="gossip-container">${paras}</div>`;
     }
 
