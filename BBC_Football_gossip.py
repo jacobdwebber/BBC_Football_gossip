@@ -75,11 +75,22 @@ def clean_paras(p_tag):
     for t in p_tag.contents:
         if isinstance(t, str):
             parts.append(t)
-        else: parts.append(t.get_text(strip=True))
+        elif t.name == 'a':
+            href = t.get('href', '')
+            for hidden in t.find_all(class_='visually-hidden'):
+                hidden.decompose()
+            link_text = t.get_text(strip=True)
+            if href.startswith('http') and link_text:
+                parts.append(f'<a href="{href}" target="_blank" rel="noopener noreferrer">{link_text}</a>')
+            else:
+                parts.append(f'<u>{link_text}</u>')
+        else:
+            for hidden in t.find_all(class_='visually-hidden'):
+                hidden.decompose()
+            parts.append(t.get_text(strip=True))
     text = ' '.join(parts)
     text = ' '.join(text.split())
-    text = re.sub(r'\(\s*[^)]*?,\s*external\s*\)', '', text, flags=re.IGNORECASE)
-    return text    
+    return text
 
 def get_paras(soup):
     body = soup.find("div", class_=re.compile("RichTextContainer"))
