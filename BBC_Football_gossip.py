@@ -3,7 +3,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.parse import urljoin
 import json
 import os
@@ -100,6 +100,13 @@ def get_paras(soup):
 def get_date(soup):
     time_tag = soup.find("time")
     date = time_tag.get_text(strip=True)
+    
+    if "ago" in date.lower():
+        datetime_attr = time_tag.get("datetime", "")
+        if datetime_attr:
+            date = datetime.strptime(datetime_attr[:10], "%Y-%m-%d").strftime("%d %B %Y")
+        else:
+            date = (datetime.now() - timedelta(days=1)).strftime("%d %B %Y")
     return date
 
 def process_article(url, teams_list):
