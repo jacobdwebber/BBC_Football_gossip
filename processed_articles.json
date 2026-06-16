@@ -1,5 +1,80 @@
 [
   {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "Real Madrid have made contact regarding a move for <u>West Ham</u> 's Mateus Fernandes but <u>Manchester United</u> remain frontrunners for the Portugal midfielder, 21. <a href=\"https://www.teamtalk.com/manchester-united/mateus-fernandes-transfer-news-real-madrid-enquiry-man-utd-bid-imminent\" target=\"_blank\" rel=\"noopener noreferrer\">(Teamtalk)</a>",
+    "teams": [
+      "Manchester United",
+      "West Ham United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "<u>Manchester United</u> are not prepared to meet <u>West Ham</u> 's asking price for Fernandes, which is about £80m, but he is also a target for Paris St-Germain as well as Real Madrid . <a href=\"https://www.mirror.co.uk/sport/football/news/man-united-mateus-fernandes-transfer-37299867\" target=\"_blank\" rel=\"noopener noreferrer\">(Mirror)</a>",
+    "teams": [
+      "Manchester United",
+      "West Ham United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "Bayern Munich are set to sign Morocco forward Ismael Saibari, 25, from PSV Eindhoven in a transfer worth more than £45m. <a href=\"https://talksport.com/football/4333017/bayern-munich-ismail-saibari-transfer-news-world-cup/\" target=\"_blank\" rel=\"noopener noreferrer\">(Talksport)</a>",
+    "teams": []
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "Real Madrid have inquired about Felix Nmecha's situation at Borussia Dortmund , although the Germany midfielder's former club <u>Manchester City</u> and their rivals <u>Manchester United</u> are also in the running for the 25-year-old. <a href=\"https://sport.sky.de/fussball/artikel/real-madrid-trainer-jose-mourinho-begeistert-von-dfb-star-felix-nmecha/13554347/34132\" target=\"_blank\" rel=\"noopener noreferrer\">(Sky Sport Germany - in German)</a>",
+    "teams": [
+      "Manchester United",
+      "Manchester City"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "<u>Newcastle United</u> are set to step up talks for Osasuna's 22-year-old Spain winger Victor Munoz this week. <a href=\"https://www.dailymail.com/sport/football/article-15901135/Newcastle-step-talks-winger-Victor-Munoz-Osasuna-holding-34-5m.html\" target=\"_blank\" rel=\"noopener noreferrer\">(Mail)</a>",
+    "teams": [
+      "Newcastle United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "Barcelona's option to sign Marcus Rashford for 30m euros (£35m) is set to expire without them choosing to make the 28-year-old England forward's loan move from <u>Manchester United</u> a permanent switch. <a href=\"https://www.espn.co.uk/football/story/_/id/49070189/barcelona-deadline-sign-marcus-rashford-30m-set-expire\" target=\"_blank\" rel=\"noopener noreferrer\">(ESPN)</a>",
+    "teams": [
+      "Manchester United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "<u>Leeds United</u> are lining up a move to sign Ivory Coast centre-back Ousmane Diomande from Sporting , which could see the 22-year-old replace Wales defender Joe Rodon, 28. <a href=\"https://www.footballinsider247.com/leeds-united/leeds-plan-to-replace-joe-rodon-with-69m-centre-back-now-top-of-their-list\" target=\"_blank\" rel=\"noopener noreferrer\">(Football Insider)</a>",
+    "teams": [
+      "Leeds United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "Ipswich and Hull City are interested in England goalkeeper Nick Pope, with <u>Newcastle</u> willing to sell the 34-year-old for £5m. <a href=\"https://www.teamtalk.com/news/newcastle-green-light-nick-pope-exit-fee-set-leeds-transfer-decision\" target=\"_blank\" rel=\"noopener noreferrer\">(Teamtalk)</a>",
+    "teams": [
+      "Hull City",
+      "Newcastle United",
+      "Ipswich Town"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c07yzv0pz98o",
+    "date": "15 June 2026",
+    "text": "<u>West Ham</u> are among a number of English clubs keeping tabs on the performance of Watford winger Nestory Irankunda, 20, for Australia at the World Cup. <a href=\"https://www.footballinsider247.com/west-ham-united/west-ham-set-sights-on-move-to-sign-winger-who-has-already-lit-up-the-world-cup\" target=\"_blank\" rel=\"noopener noreferrer\">(Football Insider)</a>",
+    "teams": [
+      "West Ham United"
+    ]
+  },
+  {
     "url": "https://www.bbc.co.uk/sport/football/articles/c621q422lepo",
     "date": "14 June 2026",
     "text": "<u>Arsenal</u> have started talks about signing 18-year-old Lille midfielder Ayyoub Bouaddi, who helped Morocco to a 1-1 draw with Brazil in his country's opening game of the 2026 World Cup. <a href=\"https://www.thetimes.com/sport/football/world-cup/article/ayyoub-bouaddi-arsenal-talks-teenager-morocco-f9wwlh0x5\" target=\"_blank\" rel=\"noopener noreferrer\">(Times - subscription required)</a>",
@@ -3454,87 +3529,6 @@
     "url": "https://www.bbc.co.uk/sport/football/articles/cn0p19vzvz1o",
     "date": "5 May 2026",
     "text": "Bayern Munich's honorary president Uli Hoeness says Austria midfielder Konrad Laimer, 28, is \"not Maradona\" as the two parties struggle to agree a contract extension. <a href=\"https://sport.sky.de/fussball/artikel/konrad-laimer-fc-bayern-muenchen-liegen-bei-vertragsverhandlungen-weit-auseinander/13540159/35313\" target=\"_blank\" rel=\"noopener noreferrer\">(Sky Sport Germany - in German)</a>",
-    "teams": []
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "Italian side Juventus have made <u>Liverpool</u> goalkeeper Alisson their top target for the summer. The 33-year-old Brazil international is entering the final year of his contract at Anfield. <a href=\"https://www.skysports.com/football/news/11669/13540034/alisson-becker-transfer-news-juventus-make-liverpool-goalkeeper-a-top-target-this-summer\" target=\"_blank\" rel=\"noopener noreferrer\">(Sky Sports)</a>",
-    "teams": [
-      "Liverpool"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "Real Madrid have <u>Aston Villa</u> boss Unai Emery on the shortlist to be their new manager, but he is under contract with the Premier League side until summer 2029. <a href=\"https://talksport.com/football/4230829/unai-emery-real-madrid-aston-villa/\" target=\"_blank\" rel=\"noopener noreferrer\">(Talksport)</a>",
-    "teams": [
-      "Aston Villa"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "<u>Manchester United</u> are interested in 21-year-old Portugal midfielder Mateus Fernandes, who is expected to leave <u>West Ham</u> if they are relegated from the Premier League. <a href=\"https://www.telegraph.co.uk/football/2026/05/04/man-utd-interested-in-west-ham-mateus-fernandes/\" target=\"_blank\" rel=\"noopener noreferrer\">(Telegraph - subscription required)</a>",
-    "teams": [
-      "Manchester United",
-      "West Ham United"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "<u>Manchester United</u> are also keen to sell Uruguay midfielder Manuel Ugarte, with the 25-year-old making just one league start since Michael Carrick was appointed as interim manager in January. <a href=\"https://www.thesun.co.uk/sport/39006232/man-utd-transfer-news-ugarte/\" target=\"_blank\" rel=\"noopener noreferrer\">(Sun)</a>",
-    "teams": [
-      "Manchester United"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "<u>Manchester United</u> are ready to spend in the region of £150m to sign three central midfielders this summer. <a href=\"https://www.dailymail.com/sport/football/article-15789325/Man-United-150m-summer-transfers.html\" target=\"_blank\" rel=\"noopener noreferrer\">(Mail)</a>",
-    "teams": [
-      "Manchester United"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "<u>Brentford</u> are pursuing Red Bull Salzburg's 19-year-old Austrian defender Jannik Schuster, with talks ongoing over a deal worth about £16m. <a href=\"https://www.dailymail.com/sport/football/article-15788599/Brentford-talks-16m-deal-Austria-teen-father-coached-Germanys-ski-jumpers.html\" target=\"_blank\" rel=\"noopener noreferrer\">(Mail)</a>",
-    "teams": [
-      "Brentford"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "Inter Milan have automatically triggered a 15m euro (£13m) clause to sign <u>Manchester City</u> 's Manuel Akanji after winning Serie A. The 30-year-old Switzerland defender joined the Italian side on loan last summer. <a href=\"https://x.com/FabrizioRomano/status/2051257258332307806\" target=\"_blank\" rel=\"noopener noreferrer\">(Fabrizio Romano)</a>",
-    "teams": [
-      "Manchester City"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "<u>Liverpool</u> and <u>Arsenal</u> are among a number of Premier League teams monitoring Paris St-Germain and France forward Bradley Barcola, 23. <a href=\"https://www.teamtalk.com/liverpool/reds-alert-bradley-barcola-psg-agent-uncertainty\" target=\"_blank\" rel=\"noopener noreferrer\">(Teamtalk)</a>",
-    "teams": [
-      "Arsenal",
-      "Liverpool"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "<u>Chelsea</u> are interested in Club Brugge's 22-year-old Ecuador defender Joel Ordonez, who was previously linked with a <u>£43m move to Liverpool</u> in January. <a href=\"https://www.teamtalk.com/chelsea/joel-ordonez-pursuit-ramps-up-after-weekend-scouting-mission\" target=\"_blank\" rel=\"noopener noreferrer\">(Teamtalk)</a>",
-    "teams": [
-      "Liverpool",
-      "Chelsea"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgzr2p49xzo",
-    "date": "4 May 2026",
-    "text": "Inter Milan have warned Barcelona against making a move for Italy defender Alessandro Bastoni, 27, after wrapping up the Serie A title. <a href=\"https://www.espn.co.uk/football/story/_/id/48674544/inter-milan-warn-barcelona-making-move-alessandro-bastoni\" target=\"_blank\" rel=\"noopener noreferrer\">(ESPN)</a>",
     "teams": []
   }
 ]
