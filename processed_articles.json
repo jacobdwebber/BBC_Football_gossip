@@ -1,5 +1,83 @@
 [
   {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "<u>Manchester City</u> have entered the race to sign <u>Liverpool</u> and Netherlands forward Cody Gakpo, 27, with <u>Tottenham</u> also still working on a deal. <a href=\"https://www.soccernews.nl/news/tottenham-bereidt-nieuw-bod-op-gakpo-voor-manchester-city-loert-mee/\" target=\"_blank\" rel=\"noopener noreferrer\">(Soccer News NL - in Dutch)</a>",
+    "teams": [
+      "Manchester City",
+      "Tottenham Hotspur",
+      "Liverpool"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "<u>Newcastle</u> have reached a verbal agreement with <u>Manchester City</u> to sign Spain midfielder Nico Gonzalez, 24, for £47m plus £3m in add-ons. <a href=\"https://x.com/FabrizioRomano/status/2091917530877108324\" target=\"_blank\" rel=\"noopener noreferrer\">(Fabrizio Romano)</a>",
+    "teams": [
+      "Newcastle United",
+      "Manchester City"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "<u>Manchester United</u> are confident of persuading <u>Arsenal</u> to sell England's Myles Lewis-Skelly, 19, although the asking price of more than £50m remains a sticking point in a deal for the player who can play left-back and midfield. <a href=\"https://www.thesun.co.uk/sport/40151114/arsenal-lewis-skelly-manchester-united/\" target=\"_blank\" rel=\"noopener noreferrer\">(Sun)</a>",
+    "teams": [
+      "Arsenal",
+      "Manchester United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "<u>Newcastle</u> have submitted an offer worth 40m euros (£34.2m) excluding bonuses for Lille and Belgium forward Matias Fernandez-Pardo, 21. <a href=\"https://www.lequipe.fr/Football/Actualites/Mercato-newcastle-entre-dans-la-danse-pour-le-lillois-matias-fernandez-pardo/1713237\" target=\"_blank\" rel=\"noopener noreferrer\">(L'Equipe - in French)</a>",
+    "teams": [
+      "Newcastle United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "<u>Chelsea</u> have had three bids rejected this summer for <u>Bournemouth</u> and England midfielder Alex Scott, 23. <a href=\"https://inews.co.uk/sport/football/chelsea-bournemouth-alex-scott-rejected-4726839?ito=link_share_article-top\" target=\"_blank\" rel=\"noopener noreferrer\">(The i)</a>",
+    "teams": [
+      "Chelsea",
+      "AFC Bournemouth"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "Hull have submitted a 21m euros (£17.9m) offer for Union Berlin and Germany Under-21s forward Ilyas Ansah, with talks over a long-term contract at an advanced stage. <a href=\"https://sport.sky.de/fussball/artikel/hull-city-will-ilyas-ansah-von-union-berlin-verpflichten/13576589/34130\" target=\"_blank\" rel=\"noopener noreferrer\">(Sky Deutschland - in German)</a>",
+    "teams": [
+      "Hull City"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "AC Milan are considering a move late in the transfer window to sign <u>Manchester United</u> and Morocco defender Noussair Mazraoui, 28. <a href=\"https://www.caughtoffside.com/2026/08/24/sources-man-united-face-last-minute-decision-on-technical-player-wanted-by-euro-giants/\" target=\"_blank\" rel=\"noopener noreferrer\">(CaughtOffside)</a>",
+    "teams": [
+      "Manchester United"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "Coventry have agreed a £6m deal to sign <u>Brentford</u> and Jamaica defender Ethan Pinnock, 33. <a href=\"https://www.nytimes.com/athletic/7535120/2026/08/24/ethan-pinnock-coventry-brentford-transfer-news/?eafs_enabled=false\" target=\"_blank\" rel=\"noopener noreferrer\">(Athletic - subscription required)</a>",
+    "teams": [
+      "Coventry City",
+      "Brentford"
+    ]
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cddv72gj7qro",
+    "date": "24 August 2026",
+    "text": "Monza will offer former <u>Tottenham</u> and England midfielder Dele Alli, 30, a one-year contract. He has been without a club since leaving Como in September 2025. <a href=\"https://www.fichajes.net/noticias/dele-alli-regresar-serie-20260824.html\" target=\"_blank\" rel=\"noopener noreferrer\">(Fichajes - in Spanish)</a>",
+    "teams": [
+      "Tottenham Hotspur"
+    ]
+  },
+  {
     "url": "https://www.bbc.co.uk/sport/football/articles/czxqx29jy02o",
     "date": "23 August 2026",
     "text": "<u>Manchester City</u> are ready to meet <u>Chelsea</u> 's asking price for Enzo Fernandez, with the Blues wanting £120m for the 25-year-old Argentina midfielder. <a href=\"https://www.footballinsider247.com/manchester-city/man-city-ready-to-meet-huge-enzo-fernandez-asking-price-after-two-big-deals-agreed\" target=\"_blank\" rel=\"noopener noreferrer\">(Football Insider)</a>",
@@ -3620,95 +3698,6 @@
     "text": "USA goalkeeper Gabriel Slonina, 22, is currently on trial with Strasbourg with a view to a move from <u>Chelsea</u> . <a href=\"https://www.lequipe.fr/Football/Actualites/Mercato-le-gardien-americain-gabriel-slonina-chelsea-teste-par-strasbourg/1704362\" target=\"_blank\" rel=\"noopener noreferrer\">(L'Equipe - in French)</a>",
     "teams": [
       "Chelsea"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "AC Milan's Ecuador left-back Pervis Estupinan, 28, is one of the targets being assessed by <u>Aston Villa</u> . <a href=\"https://www.dailymail.com/sport/football/article-15973163/Southampton-win-race-sign-Aston-Villa-forward-Unai-Emerys-finalise-club-record-deal-sign-Johan-Manzambi-hijacking-Newcastle-WINDOW-WATCH.html\" target=\"_blank\" rel=\"noopener noreferrer\">(Mail)</a>",
-    "teams": [
-      "Aston Villa"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "Bruno Guimaraes is viewed as not being for sale by <u>Newcastle</u> , despite rumours of <u>Arsenal</u> thinking they could get the 28-year-old Brazil midfielder for £50m. <a href=\"https://www.chroniclelive.co.uk/sport/football/transfer-news/newcastle-slam-nonsense-talk-bruno-34281991\" target=\"_blank\" rel=\"noopener noreferrer\">(Newcastle Chronicle)</a>",
-    "teams": [
-      "Arsenal",
-      "Newcastle United"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "Inter Milan have given up on signing England defender Trevoh Chalobah as they cannot afford <u>Chelsea</u> 's asking price of £30m, but Como are still interested in the 27-year-old. <a href=\"https://www.corrieredellosport.it/news/calcio/calcio-mercato/inter/2026/07/13-149872137/linter_lascia_chalobah_al_como_stankonvic_lunica_vera_novit\" target=\"_blank\" rel=\"noopener noreferrer\">(Corriere dello Sport - in Italian)</a>",
-    "teams": [
-      "Chelsea"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "<u>Chelsea</u> are set make an offer which could reach £21m for Rayo Vallecano 's Spanish left-back Pep Chavarria, 28. <a href=\"https://www.marca.com/futbol/rayo/2026/07/13/chelsea-acelera-pep-chavarria.html\" target=\"_blank\" rel=\"noopener noreferrer\">(Marca - in Spanish)</a>",
-    "teams": [
-      "Chelsea"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "Roma have had an offer of 40m euros rejected by Atletico Madrid for 25-year-old Manu Kone. <u>Manchester United</u> and <u>Liverpool</u> are also interested in the France defender. <a href=\"https://www.corrieredellosport.it/news/calcio/serie-a/roma/2026/07/13-149867530/la_roma_rifiuta_40_milioni_dallatletico_per_kon_avanti_per_moreira_e_garnacho\" target=\"_blank\" rel=\"noopener noreferrer\">(Corriere dello Sport - in Italian)</a>",
-    "teams": [
-      "Manchester United",
-      "Liverpool"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "<u>Aston Villa</u> , <u>Leeds United</u> , <u>Sunderland</u> , <u>Fulham</u> and <u>Brighton</u> are all interested in 20-year-old Sweden and Barcelona winger Roony Bardghji. <a href=\"https://sportwitness.co.uk/aston-villa-leeds-sunderland-and-2-other-pl-sides-in-transfer-tussle-all-make-approaches/\" target=\"_blank\" rel=\"noopener noreferrer\">(Sport via Sport Witness)</a>",
-    "teams": [
-      "Brighton & Hove Albion",
-      "Leeds United",
-      "Sunderland",
-      "Aston Villa",
-      "Fulham"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "<u>Hull City</u> and Southampton are interested in German Werder Bremen forward Justin Nijnmah, 25. <a href=\"https://www.bild.de/sport/fussball/werder-bremen-wechsel-alarm-werder-star-vor-abgang-auf-die-insel-6a54d715f0157ebe0a8ebfd0?ref=ed_direct\" target=\"_blank\" rel=\"noopener noreferrer\">(Bild - in German)</a>",
-    "teams": [
-      "Hull City"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "Thomas Schjelderup's performances for Norway at the World Cup have increased Benfica 's asking price for the 22-year-old winger to £43m. <u>Chelsea</u> , <u>Liverpool</u> and <u>Tottenham</u> are interested in him. <a href=\"https://www.abola.pt/noticias/schjelderup-de-classe-mundial-renovacao-complica-se-cofres-do-benfica-agradecem-2026071220302897927\" target=\"_blank\" rel=\"noopener noreferrer\">(A Bola - in Portuguese)</a>",
-    "teams": [
-      "Tottenham Hotspur",
-      "Liverpool",
-      "Chelsea"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "Sporting , Wolves and Southampton have all had approaches turned down for <u>Tottenham</u> 's 21-year-old striker Will Lankshear. He has represented England at youth level and spent last season on loan at Oxford United . <a href=\"https://www.football.london/tottenham-hotspur-fc/transfer-news/tottenham-reject-three-new-approaches-34284713\" target=\"_blank\" rel=\"noopener noreferrer\">(Football.London)</a>",
-    "teams": [
-      "Wolverhampton Wanderers",
-      "Tottenham Hotspur"
-    ]
-  },
-  {
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm2jlg3el4no",
-    "date": "13 July 2026",
-    "text": "Barcelona are open to selling Spain midfielder Ferran Torres, 26, to avoid having to pay his former club <u>Manchester City</u> about £7m if they extend his contract. <a href=\"https://www.nytimes.com/athletic/7441956/2026/07/13/barcelona-ferran-torres-transfer-contract-manchester-city/\" target=\"_blank\" rel=\"noopener noreferrer\">(Athletic - subscription required)</a>",
-    "teams": [
-      "Manchester City"
     ]
   }
 ]
